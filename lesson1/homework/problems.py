@@ -22,8 +22,13 @@ print("I like", favfruit)
 city = "seattle"
 country = "usa"
 print(city)
-print
+print(country)
 
 # Problem 5
 # Create 3 variables: your pet's name, its age, and its type.
 # Print them on the same line in a full sentence.
+petname = "raina"
+petage = 9
+pettype = "human"
+print("my", pettype, ",", petname, "is", petage) 
+#how do you remove space between human and ,???
