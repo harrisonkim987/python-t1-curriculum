@@ -1,7 +1,7 @@
 x = 5 # integer: whole number
 print(x)
 
-favorite_food = "pizza"
+favorite_food = "pizza" #quote strings!!!
 print(favorite_food)
 
 print (x, favorite_food)
