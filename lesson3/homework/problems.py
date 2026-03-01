@@ -1,16 +1,23 @@
 # Problem 1
 # Ask the user to enter a number.
 # Print "Even" if the number is divisible by 2, otherwise print "Odd".
-
-
-
+number = int(input("gimme a number"))
+quotient = int(number / 2)
+if number - (quotient * 2) == 0:
+    print("even")
+else:
+    print("odd")
 # Problem 2
 # Ask the user for the day of the week (all lowercase).
 # Print "Weekend" if the day is "saturday" or "sunday",
 # else print "Weekday".
-
-
-
+day = input("whats the day")
+if day == "saturday":
+    print("weekend")
+elif day == "sunday":
+    print("weekend")
+else:
+    print("weekday")
 # Problem 3
 # Generate a random number between 1 and 10 (inclusive).
 # Ask the user to guess the number.
@@ -29,3 +36,11 @@
 # Ask the user for two numbers.
 # Print which number is larger.
 # If the numbers are equal, print "Numbers are equal".
+firstnum = input("first number")
+secondnum  = input("second number")
+if firstnum > secondnum:
+    print(firstnum)
+elif secondnum > firstnum:
+    print(secondnum)
+else:
+    print("numbers are equal")
