@@ -20,7 +20,7 @@ print(favcolor, favanimal, "s are cool")
 # Homework Problem 4
 # Ask the user how many push-ups they can do.
 # Multiply it by 7 and print how many they could do in a week.
-pushups = input("pushup count")
+pushups = int(input("pushup count"))
 print(pushups * 7)
 # Homework Problem 5
 # Use a for loop to print the square of each number from 1 to 6.
