@@ -29,8 +29,15 @@ else:
 # Ask the user for a positive integer.
 # If the number is divisible by 2 and greater than 10, print "Big even number".
 # Otherwise print "Number does not meet criteria".
-
-
+othernumber = int(input("gimme another number"))
+quotient = int(othernumber / 2)
+if othernumber - (quotient * 2) == 0:
+    if othernumber > 10:
+        print("big even number")
+    else:
+        print("number does not meet criteria")
+else:
+    print("number does not meet criteria")
 
 # Problem 5
 # Ask the user for two numbers.
