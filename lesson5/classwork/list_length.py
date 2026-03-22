@@ -10,6 +10,8 @@ vegetable = ["cucumber", "eggplant", "bell pepper"]
 vegetable.append("mushroom")# append adds thing to end
 print(vegetable)
 
+vegetable.sort()#sorts items alphabetically
+
 vegetable.insert(2, "carrot") # insert inserts thing into designated
 print(vegetable)
 

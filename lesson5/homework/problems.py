@@ -13,7 +13,8 @@ print(opsysts(2), opsysts(1), opsysts(0))
 # Then sort them alphabetically and print the result.
 subjects = ["history", "math", "ela", "science"]
 print(subjects(1))
-#teacher said we donot have to this part we dont know how to sort alphabetically
+subjects.sort()
+print(subjects)
 # Problem 3 
 # Create a list of 5 error codes.
 # Print how many there are.
