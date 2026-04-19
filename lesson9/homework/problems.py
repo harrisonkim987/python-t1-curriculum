@@ -33,3 +33,9 @@ animal = 0
 while animal < len(animals):
     print(animals[animal])
     animal = animal+1
+
+#bonus
+guess = 10293
+while not guess == "7":
+    guess = input("whats the passcode")
+
